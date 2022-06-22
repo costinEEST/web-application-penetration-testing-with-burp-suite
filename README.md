@@ -1,2 +1,1 @@
-# web-application-penetration-testing-with-burp-suite
-Notes from the course
+- [Set up DVWA inside a Docker container](https://github.com/digininja/DVWA#docker-container)
