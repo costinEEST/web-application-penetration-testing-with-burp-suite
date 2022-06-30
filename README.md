@@ -14,3 +14,5 @@ C:\Users\You\Desktop\BurpSuite>"C:\Program Files\Java\jdk-13.0.2\bin\java.exe" -
 ```
 
 Burp -> Proxy -> Intercept -> switch to 'Intercept is off'
+
+- Configure Burp to run over HTTPS: with BurpSuite turned on, go to http://burp/ then click 'CA Certificate', save the certificate locally. In Firefox, go to `about:preference` then search for `Certificates` then click `View Certificates`. From the `Authorities` tab, click `Import`, select the certificate saved previously then check `Trust this CA to identify websites`.
